@@ -36,6 +36,7 @@
     "mustache": "2.3.0",
     "open": "0.0.5",
     "reveal.js": "git+https://github.com/profyu/reveal.js.git",
+    "shelljs": "^0.7.7",
     "yaml-front-matter": "^3.4.0"
   },
   "devDependencies": {

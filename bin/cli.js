@@ -12,6 +12,7 @@ program
   .option('-H, --highlight-theme <theme>', 'Highlight theme [zenburn]', defaults.highlightTheme)
   .option('-h, --host <host>', 'Host [localhost]', defaults.host)
   .option('-i, --scripts <scripts>', 'Scripts to inject into the page', defaults.scripts)
+  .option('-a, --assets <assets>', 'img or resource to will be load as ./assets/[file]', defaults.assets)
   .option('-m, --preprocessor <script>', 'Markdown preprocessor script', defaults.preprocessor)
   .option('-p, --port <port>', 'Port [1948]', defaults.port)
   .option('-P, --print [filename]', 'Print', defaults.print)
