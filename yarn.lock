@@ -1398,8 +1398,8 @@ js-tokens@^3.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7"
 
 js-yaml@^3.5.1, js-yaml@^3.5.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.8.2.tgz#02d3e2c0f6beab20248d412c352203827d786721"
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.8.3.tgz#33a05ec481c850c8875929166fe1beb61c728766"
   dependencies:
     argparse "^1.0.7"
     esprima "^3.1.1"
@@ -2036,13 +2036,18 @@ restore-cursor@^1.0.1:
     exit-hook "^1.0.0"
     onetime "^1.0.0"
 
+reveal.js-menu@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/reveal.js-menu/-/reveal.js-menu-0.7.0.tgz#345a5dfb90171afa36097670a41a8ff44f50d9d2"
+
 "reveal.js@git+https://github.com/profyu/reveal.js.git":
   version "3.4.1"
-  resolved "git+https://github.com/profyu/reveal.js.git#312eb47c17562e36ec1ca970819a18b8e8d47790"
+  resolved "git+https://github.com/profyu/reveal.js.git#d0fe4bc0335ffa8a6dd2b471df26419246707296"
   dependencies:
     express "~4.14.0"
     grunt-cli "~1.2.0"
     mustache "~2.2.1"
+    reveal.js-menu "^0.7.0"
     socket.io "^1.4.8"
 
 rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
