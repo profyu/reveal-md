@@ -48,7 +48,7 @@
               { src: '{{{base}}}/plugin/notes/notes.js', async: true },
               { src: '{{{base}}}/plugin/math/math.js', async: true },
               { src: '{{{base}}}/plugin/menu/menu.js', async: true },
-              { src: '{{{base}}}/plugin/gist/gist.js', async: true }
+              { src: 'plugin/gist/gist.js', condition:function(){return !!document.querySelectorAll("div[data-gist-url]");} }
 
             ];
 
